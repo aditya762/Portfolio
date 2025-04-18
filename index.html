@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aditya | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </head>
+  <body>
+    <!-- SCROLL SECTIONS WRAPPER -->
+    <div class="wrapper">
+      <!-- HOME / HERO SECTION -->
+      <section class="section home" id="home">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1>Hi, I'm <span class="type-text" id="typed-name"></span></h1>
+              <p class="subtitle">Aspiring Data Analyst & Creative Technologist</p>
+            </div>
+            <model-viewer
+              class="hero-avatar"
+              src="assets/avatar.glb"
+              alt="Aditya Avatar"
+              auto-rotate
+              camera-controls
+              ar
+              disable-zoom
+            ></model-viewer>
+          </div>
+          <div class="scroll-indicator"></div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="section about" id="about">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">About Me</h2>
+          <p class="section-desc" data-aos="fade-up">
+            I'm Aditya Pratap Singh, a Computer Science student at Lovely Professional University passionate about turning raw data into meaningful insights and beautiful designs.
+          </p>
+        </div>
+      </section>
+
+      <!-- SKILLS SECTION -->
+      <section class="section skills" id="skills">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">Skills</h2>
+          <ul class="skills-list" data-aos="fade-up">
+            <li>C++, Java, C, Python</li>
+            <li>HTML, CSS, MySQL, R</li>
+            <li>Figma, Tableau, Excel</li>
+            <li>Critical Thinking, Problem Solving</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section class="section projects" id="projects">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">Projects</h2>
+          <ul class="projects-list" data-aos="fade-up">
+            <li>IPL Dashboard using Excel</li>
+            <li>Covid Situation Analysis using Tableau</li>
+            <li>Data Cleaning & Visualisation using R & MySQL</li>
+            <li>FrostBite Ice Cream App UI – Figma</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="section contact" id="contact">
+        <div class="container">
+          <h2 class="section-title" data-aos="fade-up">Contact</h2>
+          <div class="contact-icons" data-aos="fade-up">
+            <a href="mailto:adityaprataps0018@gmail.com" title="Email"><img src="assets/icons/email.svg" alt="Email" /></a>
+            <a href="https://linkedin.com/in/aditya45" title="LinkedIn"><img src="assets/icons/linkedin.svg" alt="LinkedIn" /></a>
+            <a href="https://github.com/aditya762" title="GitHub"><img src="assets/icons/github.svg" alt="GitHub" /></a>
+            <a href="https://leetcode.com/u/aditya9910" title="LeetCode"><img src="assets/icons/leetcode.svg" alt="LeetCode" /></a>
+            <a href="https://drive.google.com/file/d/1AzmLkYbJGdVAdityaCV/view" title="Resume"><img src="assets/icons/resume.svg" alt="Resume" /></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
